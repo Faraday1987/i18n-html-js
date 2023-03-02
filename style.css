@@ -1,0 +1,48 @@
+/* SIMPLE COMMON RESET FILE with some vars*/
+:root {
+    --color-primary-light: #00F6AC;
+    --color-primary-dark: #0084F7;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+html {
+    text-rendering: optimizeSpeed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+/* SIMPLE COMMON RESET FILE */
+.select__section {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+.select__language {
+    width: 33%;
+    align-self: center;
+    align-content: center;
+}

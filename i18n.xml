@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- HERE YOUR LANGUAGES BY XML TAGS -->
+<portfolio>
+	<languages>
+		<language id="es">
+			<name>Es</name>
+			<welcome>¡Bienvenido!</welcome>
+		</language>
+		<language id="en">
+			<name>En</name>
+			<welcome>Welcome!</welcome>
+		</language>
+		<language id="pt">
+			<name>Pt</name>
+			<welcome>Bem-vindos!</welcome>
+		</language>
+		<language id="it">
+			<name>Pt</name>
+			<welcome>Benvenuto</welcome>
+		</language>
+	</languages>
+</portfolio>
+
+
+
+
+
